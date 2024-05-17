@@ -1,4 +1,6 @@
 # Control Protocol
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fknative-extensions%2Fcontrol-protocol.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fknative-extensions%2Fcontrol-protocol?ref=badge_shield)
+
 
 The goals of the control protocol are:
 
@@ -26,3 +28,7 @@ implementation. It is used to facilitate communication between the Controller
 and all Dispatcher replicas by the
 [ResetOffset](https://github.com/knative-sandbox/eventing-kafka/blob/main/config/command/resetoffset)
 Controller in order to stop / start Kafka consumers in order to "replay" events.
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fknative-extensions%2Fcontrol-protocol.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fknative-extensions%2Fcontrol-protocol?ref=badge_large)
